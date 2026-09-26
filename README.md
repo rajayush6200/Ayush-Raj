@@ -101,7 +101,15 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 
 ### Phase 2
 
-#### 10. Time Series Analysis
+#### 10. 1-D Statistical Analysis
+- Measures of central tendency (mean, median, mode)
+- Measures of dispersion (variance, standard deviation, range, IQR)
+- Skewness and kurtosis
+- Frequency distribution
+- Histograms and KDE plots
+- Box plots and violin plots
+
+#### 11. Time Series Analysis
 - Annual time-series aggregation
 - Population-adjusted murder and arrest rates
 - Time indexing
@@ -110,7 +118,7 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - First differencing
 - ARIMA model comparison and selection
 
-#### 11. 2-D Statistical Analysis
+#### 12. 2-D Statistical Analysis
 - Covariance analysis
 - Pearson correlation
 - Scatter plots
@@ -119,14 +127,14 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Contingency tables
 - Pair plot
 
-#### 12. 3-D Statistical Analysis
+#### 13. 3-D Statistical Analysis
 - Three-variable statistical summaries
 - Covariance and correlation
 - 3-D scatter plots
 - Standardized 3-D visualization
 - Three-variable correlation heatmap
 
-#### 13. K-Means Clustering
+#### 14. K-Means Clustering
 - Data preparation
 - Standardization
 - Elbow/inertia analysis
@@ -136,7 +144,7 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - 2-D and 3-D cluster visualizations
 - Cluster profile heatmaps
 
-#### 14. Hierarchical Clustering
+#### 15. Hierarchical Clustering
 - Representative sample selection
 - Standardization
 - Euclidean distance
