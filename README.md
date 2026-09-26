@@ -1,4 +1,4 @@
-# Exploratory Data Analysis (EDA) Course Project – Phase 1
+# Exploratory Data Analysis (EDA) Course Project – Phase 1 & Phase 2
 
 ## Student Information
 
@@ -6,14 +6,18 @@
 - **Registration Number:** 23BDS0312
 - **Course:** Exploratory Data Analysis (BCSE331L)
 - **Dataset:** County Murders (`countymurders.csv`)
+- **Institution:** VIT Vellore
 
 ---
 
-# Course Project – Phase 1
+# Course Project – Phase 1 & Phase 2
 
 ## Project Overview
 
-This project performs an Exploratory Data Analysis (EDA) on the **County Murders** dataset. The objective is to understand the structure of the dataset, identify important patterns, analyze variable distributions, detect relationships among variables, and summarize key insights using statistical methods and visualizations.
+This project performs a comprehensive Exploratory Data Analysis (EDA) on the **County Murders** dataset across two phases:
+
+- **Phase 1** covers exploratory data analysis including data loading, cleaning, descriptive statistics, univariate analysis, outlier detection, and bivariate/multivariate analysis.
+- **Phase 2** extends the analysis with 1-D statistical analysis, 2-D statistical analysis, 3-D statistical analysis, time series analysis, and unsupervised machine learning techniques (K-Means Clustering and Hierarchical Clustering).
 
 ---
 
@@ -22,9 +26,9 @@ This project performs an Exploratory Data Analysis (EDA) on the **County Murders
 - **Dataset Name:** County Murders
 - **File:** `countymurders.csv`
 - **Records:** 37,349
-- **Features:** 20
+- **Original Features:** 21
 
-The dataset contains demographic, crime, population, density, arrest, execution, and murder-related information for counties.
+The dataset contains demographic, crime, population, density, arrest, execution, and murder-related information for counties across the United States.
 
 ---
 
@@ -34,57 +38,114 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Perform data cleaning and preprocessing
 - Generate descriptive statistics
 - Conduct univariate analysis
-- Perform bivariate analysis
-- Perform multivariate analysis
+- Perform bivariate and multivariate analysis
 - Identify relationships between important variables
 - Visualize insights using statistical plots
+- Perform 1-D statistical analysis
+- Perform 2-D statistical analysis
+- Perform 3-D statistical analysis
+- Conduct Time Series Analysis
+- Apply K-Means Clustering
+- Apply Hierarchical Clustering
 
 ---
 
 ## Project Structure
 
-### 1. Data Loading
+### Phase 1
+
+#### 1. Data Loading
 - Import required libraries
 - Load dataset into Pandas DataFrame
 
-### 2. Basic Statistical Analysis
+#### 2. Basic Statistical Analysis
 - Dataset information
 - Missing value analysis
 - Descriptive statistics
 - Numerical and categorical feature identification
 
-### 3. Data Cleaning
+#### 3. Data Cleaning
 - Missing value treatment
 - Duplicate checking
 - Data quality verification
 
-### 4. Univariate Analysis
+#### 4. Univariate Analysis
 - Histograms
 - Box Plots
 - Count Plots
 - Distribution analysis
 
-### 5. Outlier Detection
+#### 5. Outlier Detection
 - Box plot analysis
 - Distribution comparison
 
-### 6. Correlation Analysis
+#### 6. Correlation Analysis
 - Correlation matrix
 - Heatmap visualization
 
-### 7. Bivariate Analysis
+#### 7. Bivariate Analysis
 - Scatter Plot
 - Regression Plot
 - Correlation Heatmap
 
-### 8. Multivariate Analysis
+#### 8. Multivariate Analysis
 - Pair Plot
 - Cluster Map
 - Standardized Box Plot
 
-### 9. Conclusion
+#### 9. Conclusion
 - Summary of findings
 - Key insights
+
+---
+
+### Phase 2
+
+#### 10. Time Series Analysis
+- Annual time-series aggregation
+- Population-adjusted murder and arrest rates
+- Time indexing
+- Autocorrelation analysis
+- Augmented Dickey-Fuller stationarity testing
+- First differencing
+- ARIMA model comparison and selection
+
+#### 11. 2-D Statistical Analysis
+- Covariance analysis
+- Pearson correlation
+- Scatter plots
+- Regression plot
+- Correlation heatmap
+- Contingency tables
+- Pair plot
+
+#### 12. 3-D Statistical Analysis
+- Three-variable statistical summaries
+- Covariance and correlation
+- 3-D scatter plots
+- Standardized 3-D visualization
+- Three-variable correlation heatmap
+
+#### 13. K-Means Clustering
+- Data preparation
+- Standardization
+- Elbow/inertia analysis
+- Silhouette analysis
+- Selection of cluster count based on silhouette score
+- Cluster sizes and profiles
+- 2-D and 3-D cluster visualizations
+- Cluster profile heatmaps
+
+#### 14. Hierarchical Clustering
+- Representative sample selection
+- Standardization
+- Euclidean distance
+- Ward's linkage method
+- Dendrogram
+- Three-cluster assignment
+- Cluster sizes and percentages
+- Cluster profiles
+- Cluster visualizations and heatmaps
 
 ---
 
@@ -96,6 +157,7 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Statsmodels
 
 ---
 
@@ -107,6 +169,8 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Several variables contain significant outliers.
 - Correlation analysis highlights both strong and weak relationships among variables.
 - Multivariate analysis provides deeper insights into interactions between important numerical features.
+- Time series analysis reveals trends and stationarity properties in murder and arrest rates over time.
+- K-Means and Hierarchical Clustering identify distinct county groupings based on crime and demographic characteristics.
 
 ---
 
@@ -117,7 +181,6 @@ Ayush-Raj/
 │
 ├── EDA_Course_Project_Phase1.ipynb
 ├── countymurders.csv
-├── Course Project.pdf
 └── README.md
 ```
 
@@ -136,7 +199,7 @@ git clone https://github.com/rajayush6200/Ayush-Raj.git
 3. Install required libraries if needed
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 ```
 
 4. Run all notebook cells sequentially.
@@ -153,6 +216,13 @@ The notebook includes:
 - Relationship analysis
 - Correlation analysis
 - Multivariate analysis
+- Phase 1 exploratory analysis
+- 1-D statistical analysis
+- 2-D statistical analysis
+- 3-D statistical analysis
+- Time Series Analysis
+- K-Means Clustering
+- Hierarchical Clustering
 - Final conclusions
 
 ---
@@ -171,4 +241,4 @@ VIT Vellore
 
 ## License
 
-This project is submitted as part of the **BCSE331L – Exploratory Data Analysis Course Project (Phase 1)** for academic purposes.
+This project is submitted as part of the **BCSE331L – Exploratory Data Analysis Course Project (Phase 1 & Phase 2)** for academic purposes.
