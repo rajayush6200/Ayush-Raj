@@ -1,4 +1,4 @@
-# Exploratory Data Analysis (EDA) Course Project – Phase 1 & Phase 2
+# Exploratory Data Analysis (EDA) Course Project – Phase 1, Phase 2 & Phase 3
 
 ## Student Information
 
@@ -10,14 +10,15 @@
 
 ---
 
-# Course Project – Phase 1 & Phase 2
+# Course Project – Phase 1, Phase 2 & Phase 3
 
 ## Project Overview
 
-This project performs a comprehensive Exploratory Data Analysis (EDA) on the **County Murders** dataset across two phases:
+This project performs a comprehensive Exploratory Data Analysis (EDA) on the **County Murders** dataset across three phases:
 
-- **Phase 1** covers exploratory data analysis including data loading, cleaning, descriptive statistics, univariate analysis, outlier detection, and bivariate/multivariate analysis.
+- **Phase 1** covers exploratory data analysis including data loading, cleaning, data transformation, descriptive statistics, univariate analysis, outlier detection, and bivariate/multivariate analysis.
 - **Phase 2** extends the analysis with 1-D statistical analysis, 2-D statistical analysis, 3-D statistical analysis, time series analysis, and unsupervised machine learning techniques (K-Means Clustering and Hierarchical Clustering).
+- **Phase 3** applies advanced techniques including dimensionality reduction (Principal Component Analysis) and supervised learning (Simple Linear Regression).
 
 ---
 
@@ -47,6 +48,8 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Conduct Time Series Analysis
 - Apply K-Means Clustering
 - Apply Hierarchical Clustering
+- Apply Principal Component Analysis (PCA)
+- Apply Simple Linear Regression (SLR)
 
 ---
 
@@ -153,6 +156,31 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 
 ---
 
+### Phase 3
+
+#### 15. Principal Component Analysis (PCA)
+- Variable selection and standardization
+- PCA fitting on all selected variables
+- Explained variance (individual and cumulative)
+- Scree plot visualization
+- Component loadings heatmap
+- 2-D and 3-D PCA scatter plot visualizations
+- Dimensionality reduction summary
+
+#### 16. Simple Linear Regression (SLR)
+- Variable selection (population → murders)
+- Scatter plot and Pearson correlation
+- Train/test split
+- Model training and prediction
+- Model evaluation (R², MAE, RMSE)
+- Regression line plot (training set)
+- Actual vs. predicted comparison (test set)
+- Residual analysis and distribution
+- Q-Q plot (normality of residuals)
+- Intercept and slope interpretation
+
+---
+
 ## Libraries Used
 
 - Python
@@ -162,6 +190,7 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Seaborn
 - Scikit-learn
 - Statsmodels
+- SciPy
 
 ---
 
@@ -175,6 +204,8 @@ The dataset contains demographic, crime, population, density, arrest, execution,
 - Multivariate analysis provides deeper insights into interactions between important numerical features.
 - Time series analysis reveals trends and stationarity properties in murder and arrest rates over time.
 - K-Means and Hierarchical Clustering identify distinct county groupings based on crime and demographic characteristics.
+- PCA successfully reduces the dimensionality of the dataset while retaining a measurable proportion of variance across principal components.
+- Simple Linear Regression achieves a Pearson correlation of **0.8771** and a test R² of **0.8179**, confirming a strong linear relationship between population and murders.
 
 ---
 
@@ -214,7 +245,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 
 The notebook includes:
 
-- Data preprocessing
+- Data preprocessing and transformation
 - Statistical summaries
 - Data visualization
 - Relationship analysis
@@ -227,6 +258,8 @@ The notebook includes:
 - Time Series Analysis
 - K-Means Clustering
 - Hierarchical Clustering
+- Principal Component Analysis (PCA)
+- Simple Linear Regression (SLR)
 - Final conclusions
 
 ---
@@ -245,4 +278,4 @@ VIT Vellore
 
 ## License
 
-This project is submitted as part of the **BCSE331L – Exploratory Data Analysis Course Project (Phase 1 & Phase 2)** for academic purposes.
+This project is submitted as part of the **BCSE331L – Exploratory Data Analysis Course Project (Phase 1, Phase 2 & Phase 3)** for academic purposes.
